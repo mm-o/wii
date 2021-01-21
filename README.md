@@ -1,3 +1,3 @@
 username
 password
-sever
+sckey
