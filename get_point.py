@@ -144,7 +144,7 @@ def severchan_push(text: str, desp: str = ""):
     if not severchan_key:
         print("Sever酱未配置")
     else:
-        requests.get("https://sc.ftqq.com/{}.send?text={}?&desp={}".format(severchan_key, text, desp))
+        requests.get("https://sctapi.ftqq.com/{}.send?text={}?&desp={}".format(severchan_key, text, desp))
 
 
 # 通过抓取用户设置页面的标题检查是否登录成功
